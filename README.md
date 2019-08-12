@@ -2,11 +2,17 @@
 
 This program allows you to download songs from youtube as mp3 files, from a link or a csv file.
 
-First of all, you need to be using Python 3. Second of all, you need the youtube_dl library Use pip install youtube-dl to download it to your computer.
+First of all, you need to be using Python 3. 
+
+Second of all, you need the youtube_dl library 
+
+Use ```pip install youtube-dl``` to download it to your computer.
 
 This was made and tested on a Mac osx. I tested on a linux and it had issues.
 
-Check the yt_sample.csv for how to save a youtube playlist with the titles that you like. A few modifications are allowed as the comments below show.
+Check the ```yt_sample.csv``` for how to save a youtube playlist with the titles that you like. 
+
+A few modifications on the code are allowed as the comments below show.
 
 If you want to download a playlist from youtube, make this changes from line 17 to line 36: 
 ```
